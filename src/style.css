@@ -8,14 +8,9 @@ body {
   font-size: 12px;
 }
 
-header {
+.header {
   display: flex;
-
   align-items: stretch;
-
-  opacity: 1;
-  justify-content: space-around;
-
   text-transform: uppercase;
   background-color: #fff;
   box-shadow: 0 2px 4px 0 #0000000d;
@@ -40,11 +35,7 @@ header {
   margin: 0;
 }
 
-.div {
-  margin-left: 20px;
-}
-
-.nav__item {
+.nav__item + .nav__item {
   margin-left: 20px;
 }
 
